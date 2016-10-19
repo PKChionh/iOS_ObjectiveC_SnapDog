@@ -13,6 +13,10 @@
 		7A2D98791DB73D4C00BA032A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D98771DB73D4C00BA032A /* Main.storyboard */; };
 		7A2D987B1DB73D4C00BA032A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D987A1DB73D4C00BA032A /* Assets.xcassets */; };
 		7A2D987E1DB73D4C00BA032A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D987C1DB73D4C00BA032A /* LaunchScreen.storyboard */; };
+		7A2D98861DB74AB100BA032A /* DogEarLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D98851DB74AB100BA032A /* DogEarLeft.png */; };
+		7A2D988A1DB74D9800BA032A /* DogEarRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D98871DB74D9800BA032A /* DogEarRight.png */; };
+		7A2D988B1DB74D9800BA032A /* DogNose.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D98881DB74D9800BA032A /* DogNose.png */; };
+		7A2D988C1DB74D9800BA032A /* DogTongue.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D98891DB74D9800BA032A /* DogTongue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		7A2D987A1DB73D4C00BA032A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2D987D1DB73D4C00BA032A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2D987F1DB73D4C00BA032A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2D98851DB74AB100BA032A /* DogEarLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DogEarLeft.png; sourceTree = "<group>"; };
+		7A2D98871DB74D9800BA032A /* DogEarRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DogEarRight.png; sourceTree = "<group>"; };
+		7A2D98881DB74D9800BA032A /* DogNose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DogNose.png; sourceTree = "<group>"; };
+		7A2D98891DB74D9800BA032A /* DogTongue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DogTongue.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		7A2D986D1DB73D4B00BA032A /* MySnapDog */ = {
 			isa = PBXGroup;
 			children = (
+				7AEA901A1DB786A900D8089A /* Images */,
 				7A2D98711DB73D4C00BA032A /* AppDelegate.h */,
 				7A2D98721DB73D4C00BA032A /* AppDelegate.m */,
 				7A2D98741DB73D4C00BA032A /* ViewController.h */,
@@ -77,6 +86,17 @@
 				7A2D986F1DB73D4C00BA032A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AEA901A1DB786A900D8089A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D98851DB74AB100BA032A /* DogEarLeft.png */,
+				7A2D98871DB74D9800BA032A /* DogEarRight.png */,
+				7A2D98881DB74D9800BA032A /* DogNose.png */,
+				7A2D98891DB74D9800BA032A /* DogTongue.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +130,6 @@
 				TargetAttributes = {
 					7A2D986A1DB73D4B00BA032A = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 98VB2929L9;
 					};
 				};
 			};
@@ -137,8 +156,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A2D988A1DB74D9800BA032A /* DogEarRight.png in Resources */,
 				7A2D987E1DB73D4C00BA032A /* LaunchScreen.storyboard in Resources */,
 				7A2D987B1DB73D4C00BA032A /* Assets.xcassets in Resources */,
+				7A2D988C1DB74D9800BA032A /* DogTongue.png in Resources */,
+				7A2D988B1DB74D9800BA032A /* DogNose.png in Resources */,
+				7A2D98861DB74AB100BA032A /* DogEarLeft.png in Resources */,
 				7A2D98791DB73D4C00BA032A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MySnapDog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ite.MySnapDog;
@@ -275,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MySnapDog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ite.MySnapDog;
@@ -301,6 +326,7 @@
 				7A2D98841DB73D4C00BA032A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
