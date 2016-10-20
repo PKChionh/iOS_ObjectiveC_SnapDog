@@ -15,7 +15,8 @@ or [download it](https://github.com/PKChionh/iOS_ObjectiveC_SnapDog/zipball/mast
 
 ## Features
 
-Work in progress.
+- Image capture, save to /retrieval from photo library
+- Add & manipulate images
 
 ## Documentation
 
